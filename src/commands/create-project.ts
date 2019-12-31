@@ -6,11 +6,11 @@ const command: GluegunCommand = {
     const { filesystem, print, prompt } = toolbox
     const endConfig = {
       opt1: {
-        option: 'TS: GQL: Backend',
+        option: 'TS & GQL: Backend',
         originTemplate: `${process.cwd()}/src/templates/project-templates/backend`
       },
       opt2: {
-        option: 'TS: GQL: Frontend',
+        option: 'TS & GQL: Frontend',
         originTemplate: `${process.cwd()}/src/templates/project-templates/frontend`
       }
     }
